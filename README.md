@@ -9,16 +9,6 @@
 
 ---
 
-## 📁 Structure du projet
-
-```
-Dashboard_April/
-│
-├── Dashboard_april.pbix                  # Rapport Power BI complet
-├── README.md                             # Ce fichier
-└── Executive_Summary.md                  # Synthèse exécutive détaillée
-```
-
 ---
 
 ## 🗂️ Pages du Dashboard
@@ -53,8 +43,6 @@ Dashboard_April/
 | Catégories produit | 23 |
 
 ---
-
-
 
 *Nettoyage Power Query : exclusion des SKUs non vendus (quantité_commandée ≤ 0) → −10 715 lignes*
 
