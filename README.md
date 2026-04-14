@@ -30,6 +30,8 @@ Dashboard_April/
 | 3 | **Retours** | 15 | Taux retour, CA perdu, catégories à risque |
 | 4 | **Clients** | 15 | LTV, Taux rétention, Actifs/Inactifs |
 | 5 | **Segmentation** | 15 | VIP / Actif / Risque / Dormant |
+| 6 | **Synthèse** |
+| 5 | **Recommandation** | 
 
 ---
 
@@ -52,23 +54,7 @@ Dashboard_April/
 
 ---
 
-## 🏗️ Modèle de données (étoile)
 
-```
-                    ┌──────────────┐
-                    │  _Mesures    │  ← Table DAX dédiée (bonne pratique)
-                    └──────────────┘
-                           │
-          ┌────────────────┼──────────────────┐
-          ▼                ▼                  ▼
-    ┌──────────┐    ┌────────────┐    ┌────────────────┐
-    │ Dim_date │    │ Dim_Produit│    │   Dim_Client   │
-    └──────────┘    └────────────┘    └────────────────┘
-                                              │
-                                    ┌─────────────────┐
-                                    │ Synthese_Client │
-                                    └─────────────────┘
-```
 
 *Nettoyage Power Query : exclusion des SKUs non vendus (quantité_commandée ≤ 0) → −10 715 lignes*
 
@@ -142,18 +128,7 @@ Segment_Risque   -- retour > 10 %               → 37 clients, taux moy 35,8 %
 
 ---
 
-## 🚀 Prérequis
 
-1. Télécharger [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (gratuit)
-2. Ouvrir `Dashboard_april.pbix`
-3. Naviguer entre les pages via le panneau de gauche ou la Page de garde
-
----
-
-## 👤 Auteur
-
-**[Votre nom]**
-🔗 [LinkedIn](https://linkedin.com/in/votre-profil) · [GitHub](https://github.com/votre-compte)
 
 ---
 
