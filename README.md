@@ -21,7 +21,7 @@
 | 4 | **Clients** | 15 | LTV, Taux rétention, Actifs/Inactifs |
 | 5 | **Segmentation** | 15 | VIP / Actif / Risque / Dormant |
 | 6 | **Synthèse** |
-| 5 | **Recommandation** | 
+| 7 | **Recommandation** | 
 
 ---
 
